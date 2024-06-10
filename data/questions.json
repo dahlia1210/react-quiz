@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "question": "کدام گزینه معروف ترین کتابخانه جاوا اسکریپت است؟",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "شرکت سازنده ی ری‌اکت کدام گزینه است؟",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "زیربنای اصلی برنامه‌های ری‌اکت چیست؟",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "نام سینتکسی که برای توصیف رابط کاربری در کامپوننت‌های ری‌اکت استفاده می‌کنیم چیست؟",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "جریان داده در ری‌اکت به چه صورت است؟",
+      "options": [
+        "از والدین به فرزندان",
+        "از فرزندان به والدین",
+        "هر دو",
+        "برنامه نویس تصمیم می‌گیرد."
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "چگونه می‌توانیم داده‌ها را به کامپوننت فرزند ارسال کنیم؟",
+      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "چه زمانی از derived state استفاده می‌کنیم؟",
+      "options": [
+        "زمانیکه state باعث re-render نشود.",
+        "زمانیکه state بتواند با یک Effect همگام‌سازی شود.",
+        "زمانیکه state باید در همه ی کامپوننت‌ها قابل دسترس باشد.",
+        "زمانیکه state توسط یک state دیگر قابل محاسبه باشد."
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "چه چیزی باعث تحریک شدن یک re-render در ری‌اکت می‌شود؟",
+      "options": [
+        "اجرای یک effect",
+        "انتقال props",
+        "به‌روزرسانی state",
+        "اضافه کردن event listener به عناصر DOM"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "در ری‌اکت چه زمانی به طور مستقیم به DOM \"دست\" می‌زنیم؟",
+      "options": [
+        "زمانیکه نیاز داریم به یک رویداد گوش کنیم",
+        "زمانیکه نیاز داریم رابط کاربری را تغییر دهیم",
+        "زمانیکه نیاز داریم style اضافه کنیم",
+        "تقریباً هیچ وقت"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "تحت چه شرایطی از callback برای به‌روزرسانی state استفاده می‌کنیم؟",
+      "options": [
+        "زمانیکه به‌روزرسانی state کند باشد.",
+        "زمانیکه state به‌روزرسانی شده data-intensive باشد.",
+        "زمانیکه به‌روزرسانی state باید سریع‌تر اتفاق بیفتد.",
+        "وقتی که state جدید به state قبلی وابسته است."
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "اگر یک تابع را به useState ارسال کنیم، چه زمانی فراخوانی خواهد شد؟",
+      "options": [
+        "با هر re-render",
+        "هر زمان که state را به‌روزرسانی کنیم.",
+        "فقط در اولین render",
+        "اولین باری که state  به‌روزرسانی می‌شود."
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "از کدام hook برای یک درخواست API در اولین render کامپوننت استفاده می‌شود؟",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "چه متغیرهایی باید در آرایه‌ی وابستگی useEffect قرار بگیرند؟",
+      "options": [
+        "معمولاً هیچکدام",
+        "تمام متغیرهای state",
+        "تمام stateها و propهایی که در effect به آن‌ها ارجاع داده شده است.",
+        "تمام متغیرهایی که برای پاک‌سازی نیاز هستند."
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "یک effect همیشه در render اولیه اجرا می‌شود؟",
+      "options": [
+        "درست",
+        "بستگی به آرایه وابستگی دارد.",
+        "نادرست",
+        "بستگی به کد درون effect دارد."
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "اگر effect آرایه‌ی وابستگی نداشته باشد، چه زمانی اجرا خواهد شد؟",
+      "options": [
+        "فقط در زمان mount شدن کامپوننت",
+        "فقط در زمان unmount شدن کامپوننت",
+        "اولین باری که کامپوننت re-render می‌شود.",
+        "هر باری که کامپوننت re-render شود."
+      ],
+      "correctOption": 3,
+      "points": 20
+    }
+  ]
+}
