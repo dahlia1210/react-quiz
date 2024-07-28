@@ -83,7 +83,7 @@ function App() {
   );
   useEffect(function () {
     fetch(
-      "https://getpantry.cloud/apiv1/pantry/27e1f4f8-4993-444a-911a-61091f7ac907/basket/questions"
+      "https://getpantry.cloud/apiv1/pantry/6246635d-0bd1-496b-b3c6-b1e5bf312061/basket/questions"
     )
       .then((res) => res.json())
       .then((data) =>
